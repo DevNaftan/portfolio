@@ -1,13 +1,65 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --main-font: 'Goldman', cursive;
+  --logo-font: 'Audiowide', cursive;
+  --text-font: 'Open Sans', sans-serif;
+  --icon-font-size: 2.2rem;
+  --icon-list-font-size: 1.4rem;
+  --primary-color: #ffc042;
+  --secundary-color: #ffffff;
+  --dark-color: #000000;
+  --button-color: #464646;
+  --menu-top-color: #14213d;
+  --menu-bottom-color: #003049;
+  --transition-time: 0.4s;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.About,
+.Skills,
+.Projects,
+.Contact {
+  padding: 25px 10px;
+}
+
+.title-section-container {
+  display: inline-block;
+  margin-left: -10px;
+  padding: 3px 15px 3px 10px;
+  background-color: var(--dark-color);
+  box-shadow: 0px 0px 3.5px 0px var(--dark-color);
+}
+
+.title-section {
+  font-family: var(--main-font);
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: var(--secundary-color);
+}
+
+.more {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.more a {
+  font-family: var(--text-font);
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--dark-color);
+  text-shadow: 1px 1px 1px var(--secundary-color);
+}
+
+.more a:active {
+  color: var(--secundary-color);
+  text-shadow: 1px 1px 1px var(--dark-color);
 }

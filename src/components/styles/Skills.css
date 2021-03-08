@@ -1,0 +1,70 @@
+.Skills {
+  background-color: var(--secundary-color);
+}
+
+.Skills__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill {
+  display: flex;
+  margin: 35px 25px 0;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--text-font);
+}
+
+.skill-title {
+  font-size: 1.8rem;
+  font-family: var(--main-font);
+}
+
+.subskills {
+  padding-top: 10px;
+}
+
+.subskills li {
+  margin-bottom: 5px;
+  list-style: none;
+  font-size: 1.4rem;
+}
+
+.fa-code {
+  margin-right: 5px;
+  font-size: var(--icon-list-font-size);
+}
+
+.fa-html5,
+.fa-css3-alt,
+.fa-js,
+.fa-mobile-alt,
+.fa-tools {
+  font-size: 10rem;
+}
+
+.fa-html5 {
+  color: #ef6026;
+}
+
+.fa-css3-alt {
+  color: #25a1e1;
+}
+
+.fa-js {
+  color: #f7d500;
+}
+
+.fa-mobile-alt,
+.fa-tools {
+  padding-bottom: 6px;
+}
+
+.fa-mobile-alt {
+  color: rgb(73, 73, 73);
+}
+
+.fa-tools {
+  color: rgb(182, 182, 182);
+}

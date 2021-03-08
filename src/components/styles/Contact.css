@@ -1,0 +1,102 @@
+.Contact {
+  background-color: var(--secundary-color);
+}
+
+.Contact__container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.Contact__description,
+.Contact__form {
+  width: 100%;
+  max-width: 400px;
+}
+
+.Contact__description {
+  padding-top: 10px;
+  font-family: var(--text-font);
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.Contact__form {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0;
+  border-radius: 5px;
+  padding: 10px;
+  align-items: center;
+  background-color: var(--primary-color);
+  box-shadow: 0px 0px 5px 0px var(--dark-color);
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  position: relative;
+  align-items: center;
+}
+
+.fa-user,
+.fa-envelope {
+  margin-left: 10px;
+  position: absolute;
+  font-size: var(--icon-font-size);
+  color: var(--primary-color);
+}
+
+.client-input,
+.email-input,
+.message-input {
+  width: 100%;
+  font-size: 1.3rem;
+  outline-color: var(--primary-color);
+  box-shadow: inset 0px 0px 2.5px 0px var(--dark-color);
+}
+
+.client-input,
+.email-input,
+.message-input,
+.btn {
+  border: transparent;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: var(--text-font);
+}
+
+.btn {
+  border: 2.5px solid var(--button-color);
+  padding: 7.5px 20px;
+  font-family: var(--main-font);
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  outline: none;
+  color: var(--button-color);
+  background-color: transparent;
+  text-shadow: 1.35px 1.35px 0px var(--secundary-color);
+}
+
+.btn:active {
+  border: 2.5px solid var(--secundary-color);
+  color: var(--secundary-color);
+  background-color: var(--button-color);
+  text-shadow: 1.35px 1.35px 0px var(--primary-color);
+}
+
+.input-container,
+.message-input {
+  margin-bottom: 15px;
+}
+
+.message-input {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.client-input,
+.email-input {
+  padding-left: 40px;
+}
