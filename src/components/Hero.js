@@ -9,10 +9,8 @@ function Hero() {
       <h1 className='Hero-title'>Jhean Pacheco</h1>
       <h2 className='Hero-profession'>Frontend Developer</h2>
       <div className='down'>
-        <a href='#about'>
-          <FontAwesomeIcon icon={faChevronDown} className='fa-chevron-down' />
-          <FontAwesomeIcon icon={faChevronDown} className='fa-chevron-down' />
-        </a>
+        <FontAwesomeIcon icon={faChevronDown} className='fa-chevron-down' />
+        <FontAwesomeIcon icon={faChevronDown} className='fa-chevron-down' />
       </div>
     </section>
   );

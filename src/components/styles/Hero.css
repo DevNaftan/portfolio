@@ -49,11 +49,7 @@
   animation: float 1.5s infinite ease-in-out;
 }
 
-.down a {
-  text-decoration: none;
-}
-
-.down a .fa-chevron-down {
+.down .fa-chevron-down {
   display: block;
   font-size: 2rem;
   color: var(--secundary-color);
