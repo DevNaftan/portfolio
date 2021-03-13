@@ -49,19 +49,19 @@ function Skills() {
           <ul className='subskills'>
             <li>
               <FontAwesomeIcon icon={faCode} className='fa-code' />
-              <span>Vanilla</span>
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faCode} className='fa-code' />
               <span>React</span>
             </li>
             <li>
               <FontAwesomeIcon icon={faCode} className='fa-code' />
-              <span>Node.js</span>
+              <span>Node</span>
             </li>
             <li>
               <FontAwesomeIcon icon={faCode} className='fa-code' />
               <span>Jest</span>
+            </li>
+            <li>
+              <FontAwesomeIcon icon={faCode} className='fa-code' />
+              <span>Vanilla</span>
             </li>
           </ul>
         </div>
@@ -86,6 +86,10 @@ function Skills() {
             <li>
               <FontAwesomeIcon icon={faCode} className='fa-code' />
               <span>Git</span>
+            </li>
+            <li>
+              <FontAwesomeIcon icon={faCode} className='fa-code' />
+              <span>npm</span>
             </li>
             <li>
               <FontAwesomeIcon icon={faCode} className='fa-code' />
